@@ -1,0 +1,55 @@
+body{
+    background: linear-gradient(to right, #dfe9f3, #ffffff);
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #222;
+}
+
+.subtitle{
+    color: gray;
+    font-size: 1.1rem;
+}
+
+.analytics-card{
+    border: none;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.analytics-card:hover{
+    transform: translateY(-5px);
+}
+
+.form-card{
+    border-radius: 20px;
+    border: none;
+}
+
+.task-card{
+    border: none;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.task-card:hover{
+    transform: scale(1.02);
+}
+
+.add-btn{
+    border-radius: 12px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.logout-btn{
+    padding: 10px 25px;
+    border-radius: 12px;
+}
+
+.card{
+    background: white;
+}
